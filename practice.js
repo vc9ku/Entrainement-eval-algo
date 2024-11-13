@@ -2,11 +2,11 @@ function sayHello() {
     return "Bonjour tout le monde";
 }
 
-console.log(sayHello())
+console.log(sayHello())   // affiche "Bonjour tout le monde"
 
 
 function sayFullName(firstName) {
-    return "Bonjour " + firstName
+    return "Bonjour " + firstName    // affiche "Bojour + firstName " en l'occurence firstName = Thomas donc la console va affichier Bonjour thomas
 }
 
 
@@ -147,3 +147,4 @@ function multiplication(x, y) {
 
 console.log(calculer(5, 3, addition))
 console.log(calculer(5, 3, multiplication))
+
